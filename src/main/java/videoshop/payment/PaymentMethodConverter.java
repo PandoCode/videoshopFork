@@ -17,13 +17,13 @@ public class PaymentMethodConverter {
                     "testName", "aliasTestName", "123456789", "test", "111111",
                     LocalDateTime.of(2024, 4, 1, 0, 0), LocalDateTime.of(2025, 4, 1, 0, 0),
                     "3333333",
-                    Monetary.getDefaultAmountFactory().setCurrency("Euro").setNumber(1).create(),
-                    Monetary.getDefaultAmountFactory().setCurrency("Euro").setNumber(1).create());
+                    Monetary.getDefaultAmountFactory().setCurrency("EUR").setNumber(1).create(),
+                    Monetary.getDefaultAmountFactory().setCurrency("EUR").setNumber(1).create());
             case "debitcard" -> new DebitCard(
                     "testName", "aliasTestName", "123456789", "test", "111111",
                     LocalDateTime.of(2024, 4, 1, 0, 0), LocalDateTime.of(2025, 4, 1, 0, 0),
                     "3333333",
-                    Monetary.getDefaultAmountFactory().setCurrency("Euro").setNumber(1).create());
+                    Monetary.getDefaultAmountFactory().setCurrency("EUR").setNumber(1).create());
             default -> throw new IllegalStateException("Wert: " + name + " als Zahlungsmethode nicht gültig!");
         };
     }
