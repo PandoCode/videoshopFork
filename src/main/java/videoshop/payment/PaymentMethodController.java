@@ -1,12 +1,13 @@
 package videoshop.payment;
 
 import org.salespointframework.payment.*;
+import org.springframework.stereotype.Controller;
 
 import javax.money.Monetary;
-import javax.money.MonetaryAmount;
 import java.time.LocalDateTime;
 
-public class PaymentMethodConverter {
+@Controller
+public class PaymentMethodController {
     public static PaymentMethod toPaymentMethod(String name) {
         return switch (name) {
             case "cash" -> Cash.CASH;

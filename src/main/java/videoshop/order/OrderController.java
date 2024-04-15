@@ -15,8 +15,6 @@
  */
 package videoshop.order;
 
-import org.salespointframework.payment.PaymentCard;
-import org.salespointframework.payment.PaymentMethod;
 import videoshop.catalog.Disc;
 
 import java.util.Optional;
@@ -25,7 +23,6 @@ import org.salespointframework.order.Cart;
 import org.salespointframework.order.Order;
 import org.salespointframework.order.OrderManagement;
 import org.salespointframework.order.OrderStatus;
-import org.salespointframework.payment.Cash;
 import org.salespointframework.quantity.Quantity;
 import org.salespointframework.useraccount.UserAccount;
 import org.salespointframework.useraccount.web.LoggedIn;
@@ -38,7 +35,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
-import videoshop.payment.PaymentMethodConverter;
+import videoshop.payment.PaymentMethodController;
 
 /**
  * A Spring MVC controller to manage the {@link Cart}. {@link Cart} instances are held in the session as they're
@@ -131,7 +128,7 @@ class OrderController {
 			// (｡◕‿◕｡)
 			// Mit completeOrder(…) wird der Warenkorb in die Order überführt, diese wird dann bezahlt und abgeschlossen.
 			// Orders können nur abgeschlossen werden, wenn diese vorher bezahlt wurden.
-			var order = new Order(account.getId(), PaymentMethodConverter.toPaymentMethod(zahlungsOption));
+			var order = new Order(account.getId(), PaymentMethodController.toPaymentMethod(zahlungsOption));
 
 			cart.addItemsTo(order);
 
