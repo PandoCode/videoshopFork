@@ -1,0 +1,201 @@
+* [33mbfc01cf[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m GUI Zahlungsoption Auswahlfeld beim bezahlen hinzugefügt
+* [33m1bf0531[m Add .vscode to .gitignore
+* [33me313abe[m Add starter actuator to pom.xml
+* [33m181da2d[m Delete empty sonarcloud file
+* [33me71bd3a[m Adapt project to Hochschule Merseburg's context
+* [33m6397ce7[m Polishing.
+* [33m85909bb[m GH-171 - Fix reference to user account identifier in orders.html.
+* [33m2aa60dd[m Overhaul developer documentation.
+* [33m1f1a566[m Upgrade to ST Lab Parent 4.0.
+* [33m3376631[m Switch to Boot defaults for logging.
+* [33m9889393[m #167 - Rework requirement specifications and developer documentation
+[31m|[m * [33mf0ccd9f[m[33m ([m[1;31morigin/stale/videoshop-ss2023[m[33m)[m Delete empty sonarcloud file
+[31m|[m * [33m79bcb47[m Adapt project to Hochschule Merseburg's context
+[31m|[m[31m/[m  
+* [33ma5e4a65[m #162 - Switch to cart.toList().size() expression in navigation.html.
+* [33me61d8ba[m #161 - Add Apache-2.0 license text.
+* [33m818d71b[m #158 - Upgrade Maven wrapper.
+* [33m54b24a2[m #160 - Fix an invalid Javadoc reference.
+* [33m7ec68b3[m #157 - Update docs with refs to JDK 17.
+* [33m291887a[m #157 - Upgrade GitHub Actions to use JDK17.
+* [33m4801b4c[m #157 - Upgrade to Lab Starter 3.0.
+* [33m9a31a6b[m #157 - Upgrade to lab parent 2.5 snapshots.
+[32m|[m * [33m50159d0[m[33m ([m[1;31morigin/stale/videoshop-ss2022[m[33m)[m Adapt links in documentation to HS Merseburg
+[32m|[m[32m/[m  
+* [33m7fda3c7[m #155 - Polishing.
+* [33maf9d228[m #155 - Tighten CatalogWebIntegrationTests.
+* [33m5be1a95[m #156 - Make Customer an aggregate root.
+* [33m17b2c1a[m #152 - Update the 'customer' package overview.
+* [33m1987d61[m #151 - Move away from JSR-303 internationalization.
+* [33mc905874[m Fix name of order package for tests.
+* [33mf0288af[m Switch to Streamable for query methods in VideoCatalog.
+* [33m44a637f[m Enable full HTTP method support for Spring MVC.
+* [33me7f6f49[m Consistent Windows line endings in resource bundles.
+* [33m45c00a9[m #150 - Switch to use Thymeleaf layout dialect.
+* [33m0930b52[m #149 - Update IntelliJ instructions.
+* [33m6862830[m #148 - Polish component diagram generation.
+* [33ma7ac429[m #142 - Remove temporary Salespoint 7.3.1 reference.
+* [33m8f068b5[m #141 - Polish repository declarations.
+* [33m8e6ace0[m #141 - Upgrade to Lab Parent 2.4 snapshots.
+* [33m31a43ef[m #145 - Lower moneta/javamoney logging level to WARN.
+* [33m117a3b6[m #147 - Update requirements specification (Pflichtenheft).
+* [33m95a621a[m #146 - Update links and versions in the readme.
+* [33meae65c4[m #144 - Bump jquery from 3.5.1 to 3.6.0.
+* [33m04bd555[m #143 - Bump maven wrapper from 3.6.3 to 3.8.3.
+* [33mee51da7[m #142 - Override salespoint.version temporarily.
+[33m|[m * [33m4b86dee[m[33m ([m[1;31morigin/feature/add-ascii-doc-code-gen[m[33m)[m Add comment
+[33m|[m * [33m4a85560[m Add asciidoctor to build configuration
+[33m|[m *   [33m95e0223[m[33m ([m[1;31morigin/stale/videoshop-ss2021[m[33m)[m Merge branch 'feature/upgrade-salespoint-dependency' into main
+[33m|[m [35m|[m[36m\[m  
+[33m|[m [35m|[m * [33m69c17d1[m Add dependency to Salespoint 7.3.1 and remove local jars
+[33m|[m [35m|[m[35m/[m  
+[33m|[m *   [33maa77b33[m Merge branch 'hotfix/local-monet-dependency' into main
+[33m|[m [1;31m|[m[1;32m\[m  
+[33m|[m [1;31m|[m * [33m1daa36a[m Add java money as extra dep
+[33m|[m [1;31m|[m * [33m03d55ea[m Testing local deployment
+[33m|[m [1;31m|[m[1;31m/[m  
+[33m|[m * [33m1e9770a[m Adapt the fork's URLs to this organisation
+[33m|[m[33m/[m  
+* [33mef16b98[m #140 - Improved reusability of modularity tests and documentation.
+* [33m7c8ef06[m #135 - Add server side validation for comment and rating.
+* [33m38c2447[m #135 - Add client side validation for comment and rating.
+* [33mf701545[m #138 - Fix the registration form validation.
+* [33m413890b[m #130 - Switch to the GitHub Actions status badge.
+* [33m4a6f881[m #137 - Fix a bogus property reference (totalPrice vs total).
+* [33m8194c53[m #136 - Fix out of sync javadoc for method parameters.
+* [33m8c4d375[m #136 - Use ./mvnw and the 'ci' profile during builds.
+* [33m0be2b26[m #134 - Upgrade to ST Lab Parent 2.3.0.
+* [33mefef365[m #130 - Switch to GitHub actions from Travis CI.
+* [33m6a8f0c8[m #129 - Upgrade to Salespoint 7.3.
+* [33mcf6584a[m #133 - Added setup for GitPod.
+* [33mf834658[m #132 - Upgrade UI libraries to latest version.
+* [33mfccccc1[m #131 - Upgrade to Maven Wrapper 0.5.6 (Maven 3.6.3).
+* [33mdde8371[m #129 - Upgrade to Salespoint 7.3 snapshots.
+* [33m0cca6c9[m #128 - Set up SonarCloud.
+* [33m6365bfe[m #127 - Add a project description to the POM.
+* [33m463100c[m #127 - Polish to conform to a maximum line length of 120.
+* [33md3484bb[m #127 - Add missing final flag to public static field.
+* [33mca95a15[m #127 - Use compliant idiom to initialize InventoryItems.
+* [33m32aa078[m #126 - Introduce a clear definition of the usage column.
+* [33m1e0934b[m #126 - Refine the developer docs.
+* [33m6c7b430[m #120 - Added Modulith component diagrams.
+* [33m33442f5[m #121 - Fix the Client/Server diagram.
+* [33mc40ce05[m #117 - Polishing.
+* [33mc8a5d46[m #117 - Document that the program uses Java 11.
+* [33me37810f[m #117 - Sync context and TLA diagrams in the spec and developer docs.
+* [33ma1259b8[m #117 - Reference UniqueInventory in UML models and docs.
+* [33m040ac1f[m #119 - Consistent removal of ROLE_ prefixes in role checks.
+* [33m2f3c2b6[m #118 - Fix dead links in Pflichtenheft.adoc.
+* [33me83a758[m #116 - Add Maven/Java version check to Prerequisites.
+* [33ma8d43c7[m #114 - Upgrade to ST lab parent 2.2.0.RELEASE.
+* [33m848d0c5[m #115 - Adapt to new Inventory API.
+* [33m2e57061[m #112 - Switch to Travis build to OpenJDK 11.
+* [33m0232538[m #112 - Upgrade to JDK 11.
+* [33m4463fdf[m #111 - Update outdated links and infos in the readme.
+* [33m06a0a11[m #110 - Update Maven invocation in the readme.
+* [33m69b7c9b[m #110 - Add Maven wrapper.
+* [33m9d08e59[m #107 - Add developer documentation.
+* [33m4c57ca1[m #105 - Cleanup.
+* [33m3d5a961[m #105 - Update the specification.
+* [33mecc5621[m #103 - Add snapshot repositories.
+* [33mdb04dc3[m #108 - Switched Travis build to OpenJDK.
+* [33m77020ff[m #106 - Adapt to API changes in UserAccountManager.
+* [33m9e100ab[m #93 - Polishing.
+* [33m71f25be[m #93 - Unit tests for account creation when creating a customer.
+* [33ma6836db[m #104 - Moved away from legacy sorting API in VideoCatalog.
+* [33mab1c29e[m #100 - Reintroduce CatalogModuleTests.
+* [33md7939b4[m #103 - Upgrade to ST Lab parent 2.2 snapshots.
+* [33m8cd455b[m #102 - DataInitializer implementations now log their execution.
+* [33m5996011[m #95 - Upgraded to ST Lab Parent 2.1.0.RELEASE.
+* [33m6e4ddb4[m #101 - Simplified web integration test setup.
+* [33m44f7965[m #100 - Remove CatalogModuleTests for now.
+* [33mc7fa7f9[m #99 - Fixed CustomerControllerIntegrationTests.allowsAuthenticatedAccessToController(…).
+* [33mf3fde72[m #91 - Fix issues with Javadoc comments.
+* [33me382f83[m #91 - Activate ci and jqa Maven profiles in Travis builds.
+* [33m37d4fc5[m #98 - Switch from SalespointWebConfiguration to WebMvcConfigurer.
+* [33maea96ef[m #97 - Run Travis builds with enforced dependency updates.
+* [33m3611702[m #96 - Removed obsolete explicit module includes.
+* [33m0dda999[m #95 - Upgraded to ST Lab parent 2.1 snapshots.
+* [33m578130d[m #86 - Document default admin credentials in the README.
+* [33mb18ff3d[m #87 - Add gitignore entries for IntelliJ IDEA.
+* [33m603be43[m #88 - Polishing.
+* [33m85a3cec[m #88 - Add setup instructions for IntelliJ IDEA.
+* [33me6e7b1d[m #84 - Update README.
+* [33mecfe088[m #83 - Upgrade to ST Lab Parent 2.0.
+* [33m521017e[m #78 - Integrate Moduliths infrastructure.
+* [33mfe5bf91[m #81 - Move VideoCatalogIntegrationTests into correct package.
+* [33m5010346[m #80 - Add Nyan Cat banner.
+* [33m1457910[m #79 - Switch to JUnit 5.
+* [33mc94edea[m #77 - Upgrade to Salespoint 7.0
+* [33me16ab78[m #75 - Properly secure InventoryController for admin only access.
+* [33m759b8e4[m #74 - Upgraded to ST Lab parent 1.2.2.
+* [33mb4cc2b0[m #71 - Added missing th:text references in templates and properties.
+* [33me6ada20[m #70 - Removed @ModelAttribute from CustomerController.registerNew(…).
+* [33mf6e29c5[m #72 - Fixed JDBC URI to properly point to a local H2 instance.
+* [33m9a057da[m #69 - Remove the need to inject a MessageSource into CatalogController.
+* [33m576eb34[m #68 - Upgraded to Lab Parent snapshot.
+* [33m36131b5[m #67 - Refactoring towards Bounded Contexts.
+* [33meff3564[m #66 - Added an example Pflichtenheft.
+* [33me12811b[m #65 - Added Spring Boot thin launcher.
+* [33mf947a2e[m #61 - Added Semantic UI.
+* [33me52c94f[m #64 - Polishing.
+* [33m4325659[m #64 - Switched to AssertJ for assertions in test cases.
+* [33m4917b5e[m #63 - Upgrade to Salespoint 6.4.0.RELEASE and Lab parent 1.2.0.RELEASE.
+* [33macf9f54[m #60 - Use correct template syntax to use ConversionService for Money rendering.
+* [33mf169d20[m #59 - Upgraded to Salespoint 6.3 and Lab parent 1.1.
+* [33m41ae3a2[m #59 - Upgraded to latest dependencies.
+* [33m5aaf05d[m #59 - Upgraded to latest dependencies.
+* [33md21ef7d[m #57 - Improved sample integration tests to demonstrate different kinds of tests.
+* [33me14e2d7[m #56 - Upgrade to Salespoint 6.2.1.
+* [33m2357299[m #55 - Switched to lab parent POM.
+* [33m1ecb294[m #54 - Fixed Travis setup to correctly enable resource caching.
+* [33mcfd2b66[m #50 - Polishing.
+* [33m2f49093[m #50 - Fix with @Transaction annotation, should fix the problem.
+* [33m97c296e[m #50 - Added test case for this issue (org.hibernate.LazyInitializationException)
+* [33m4b7f11b[m #49 - Switched to Role.of(…) instead of constructor.
+* [33m207e3e2[m #48 - Upgraded to Spring Boot 1.3 GA.
+* [33m4933e80[m #45 - Switched to H2 database to prevent database errors on updates.
+* [33mac58442[m #47 - Upgraded to Salespoint 6.2 GA.
+* [33m6498fc8[m #46 -Upgrade to Spring Boot 1.3 RC1.
+* [33m5cfda71[m #44 - Removed Spring Boot Devtools.
+* [33m9cca08b[m #43 - Upgraded to Salespoint 6.2 RC1.
+* [33m457e180[m #42 - Added Spring Boot DevTools.
+* [33mea10e05[m #41 - Dependency upgrades before the release.
+* [33mf862615[m #40 - Polished code to reduce the number of warnings in SonarCube.
+* [33me66b03c[m #36 - Dependency upgrades.
+* [33mb8b4a83[m #39 - Upgraded to new quantities API.
+* [33me92194e[m #38 - Fixed encoding of resource bundle to display umlauts correctly.
+* [33m0b18679[m #37 - Upgraded to Salespoint 6.2 snapshots.
+* [33m37d1a7c[m #36 - General dependency upgrades.
+* [33m0362caa[m #26 - Upgraded to Salespoint 6.1.1.
+* [33m6cf66db[m #35 - Improve test case setup for integration tests involving security.
+* [33md5489bd[m #26 - Upgraded to Salespoint 6.1.
+* [33m3e0dc6f[m #34 - Move to Travis container infrastructure and enable resource caching.
+* [33m8bee909[m #33 - Renamed variable for CartItems to item.
+* [33md5613c5[m #32 - Made test classes named Abstract… abstract classes.
+* [33mc80f261[m #29 - Upgraded to Salespoint 6.0.1.
+* [33me9ced4e[m #28 - Upgrade to Spring Boot 1.1.9.
+* [33m9441f30[m #27 - Polished pom.xml.
+* [33m11d8f6f[m #21 - Prepare next development iteration.
+* [33m6cd5a48[m[33m ([m[1;33mtag: 1.0.0.RELEASE[m[33m)[m #21 - Release version 1.0 GA.
+* [33m53226cc[m #23 - Improve CartController to use new Cart API.
+* [33mb9639e3[m #20 - Upgraded to Salespoint 6.0 GA.
+* [33mc648fc9[m #22 - Replaced references to guestbook repository with videoshop.
+* [33m6dad2ac[m #19 - Added @EnableGlobalMethodSecurity.
+* [33m89a5ed5[m #18 - Prepare next development iteration.
+* [33m88baf8c[m[33m ([m[1;33mtag: 1.0.0.RC1[m[33m)[m #18 - Release version 1.0 RC1.
+* [33m7431e67[m #15 - Upgraded to Salespoint 6.0 RC1.
+* [33m2b658a8[m #17 - JavaDoc and code polish.
+* [33mc1b36f3[m #16 - Upgrade to Salespoint snapshots and switch from Basket to Cart.
+* [33m6b3f7aa[m #14 - Fixed UserAccounts not being initialized correctly.
+* [33m4eb359e[m #11 - Fixed typo in readme.
+* [33m6cf7535[m #9 - Enable experimental flag to let GitHub render menu entries correctly.
+* [33mc625972[m #7 - Added CI status image to readme.
+* [33m05cf70e[m #8 - Upgraded to Tomcat 8.0.14.
+* [33ma872627[m #7 - Set up continuous integration with Travis.
+* [33m34c8132[m #6 - Prepare next development iteration.
+* [33m0a7d8bb[m[33m ([m[1;33mtag: 1.0.0.M1[m[33m)[m #6 - Release version 1.0 M1.
+* [33ma9124a0[m #5 - Upgrade to Salespoint 6.0 M1.
+* [33mdd98653[m #4 - Upgraded to Salespoint 6.0.0.
+* [33mfef4616[m #2 - Moved to JodaMoney.
+* [33mf4b9351[m #1 - Extracted VideoShop example from Salespoint repository.
